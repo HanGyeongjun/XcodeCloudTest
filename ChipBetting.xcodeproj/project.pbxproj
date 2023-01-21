@@ -11,6 +11,7 @@
 		A3D06C2029579927009EDF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D06C1F29579927009EDF65 /* ContentView.swift */; };
 		A3D06C2229579928009EDF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D06C2129579928009EDF65 /* Assets.xcassets */; };
 		A3D06C2529579928009EDF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D06C2429579928009EDF65 /* Preview Assets.xcassets */; };
+		A3FF4F93297BAEE200FA9EEE /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF4F92297BAEE200FA9EEE /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A3D06C1F29579927009EDF65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3D06C2129579928009EDF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D06C2429579928009EDF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3FF4F92297BAEE200FA9EEE /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A3D06C1D29579927009EDF65 /* ChipBettingApp.swift */,
 				A3D06C1F29579927009EDF65 /* ContentView.swift */,
+				A3FF4F92297BAEE200FA9EEE /* PlayerCell.swift */,
 				A3D06C2129579928009EDF65 /* Assets.xcassets */,
 				A3D06C2329579928009EDF65 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FF4F93297BAEE200FA9EEE /* PlayerCell.swift in Sources */,
 				A3D06C2029579927009EDF65 /* ContentView.swift in Sources */,
 				A3D06C1E29579927009EDF65 /* ChipBettingApp.swift in Sources */,
 			);
