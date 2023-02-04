@@ -5,7 +5,9 @@
 //  Created by HanGyeongjun on 2022/12/25.
 //
 
+import UIKit
 import SwiftUI
+import Foundation
 
 struct ContentView: View {
     
@@ -21,7 +23,7 @@ struct ContentView: View {
     @State var isChipSettingMode: Bool = false
     //칩 개수 슬라이더
     @State var sliderValue = 30.0
-    let minValue = 10.0
+    let MinValue = 10.0
     let maxValue = 100.0
     //리셋 알럿
     @State var showingAlert: Bool = false
@@ -68,7 +70,7 @@ struct ContentView: View {
                 HStack(spacing: 20) {
                     Text("\(Int(sliderValue))개")
                         .font(.title)
-                    Slider(value: $sliderValue, in: minValue...maxValue)
+                    Slider(value: $sliderValue, in: MinValue...maxValue)
                 }
                 .padding(.horizontal, 60)
             }
@@ -212,7 +214,8 @@ struct ContentView: View {
                         thirdPlayer -= 1
                         fourthPlayer -= 1
                         mainBet += 3
-                    } label: {
+                    }
+                label: {
                         Text("일괄베팅")
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                             .padding(.all, 40)
