@@ -1,0 +1,19 @@
+line_length: 120
+trailing_whitespace: error
+indentation: 4
+cyclomatic_complexity: 10
+
+# Disable specific rules
+excluded:
+  - Colon
+  -Comma
+  -ControlStatement
+
+# Customize the severity of specific rules
+opt_in_rules:
+  - empty_count
+  - trailing_newline
+
+# Enable specific experimental rules
+experimental_rules:
+  - sort_imports
